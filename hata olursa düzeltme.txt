@@ -1,0 +1,41 @@
+Terminali açın ve şu komutları sırasıyla çalıştırın:
+
+Bash
+pip uninstall mediapipe opencv-python -y
+pip install opencv-python
+pip install mediapipe==0.10.21
+
+pip uninstall mediapipe -y
+pip install mediapipe==0.10.21
+
+
+python -m pip cache purge
+python -m pip install --upgrade pip
+
+pip install opencv-python mediapipe numpy
+
+python -m pip install opencv-python mediapipe numpy
+python -m pip install opencv-python mediapipe numpy
+
+pip install "protobuf<4.26.0"
+pip uninstall mediapipe
+pip install mediapipe
+
+python version 3.11
+or
+python version 3.10
+add_pat
+python -m pip install opencv-python mediapipe numpy
+py -3.10 -m venv venv
+venv\Scripts\activate
+pip install opencv-python mediapipe==0.10.21 numpy
+
+pip install Pillow
+
+
+python .\ghost_mode.py
+Eğer kod hata vermeden çalışıyor ama kamera penceresi açılmıyorsa veya siyah kalıyorsa:
+
+Bilgisayarınızda kameranızı kullanan başka bir uygulama (Zoom, Teams, Kamera uygulaması vb.) açık olabilir. Hepsini kapatın.
+
+Kodun içerisindeki cv2.VideoCapture(0) kısmındaki 0 rakamı bilgisayarınızın ana kamerasını ifade eder. Eğer harici bir web kamerası kullanıyorsanız bu değeri 1 veya 2 olarak değiştirip tekrar deneyin.
